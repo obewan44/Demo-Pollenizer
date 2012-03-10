@@ -1,0 +1,17 @@
+Demo Pollenizer
+- First use of cakePHP 2.1.0
+- PhpFlickr API + key Flickr
+- How to import external API
+- How to use Cake MVC, Session, Form, Validation, Helper
+- How to work with a model without database connection.
+- Use of PHPUnit
+
+Install PHPUnit through PEAR
+PHP 5.3 + initial PEAR install doesn't work -> use this syntax :
+D:\wamp\bin\php\php5.3.0>php.exe -d phar.require_hash=0 PEAR\go-pear.phar
+
+If PHPUnit_MockObject-1.1.1.tgz is corrupted, try again.
+
+Run the demo on your local server:
+http://localhost/cakephp_210/DemoFlickrs/index
+http://localhost/cakephp_210/test.php
